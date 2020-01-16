@@ -18,13 +18,13 @@ export function Nav(props:NavProps) {
                 <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
             </button>
         </div>
-        <div className={"w-full "+ (show ? " " : "hidden") + " md:block lg:flex lg:items-center lg:w-auto"}>
+        <div className={"w-full "+ (show ? " " : "hidden") + " lg:block lg:flex lg:items-center lg:w-auto"}>
             <div className="text-sm lg:flex-grow">
                 <NavItem href="#mission" text="Mission"></NavItem>
                 <NavItem href="#features" text="Features"></NavItem>
                 <NavItem href="#testimonials" text="Testimonials"></NavItem>
                 <NavItem href="#plans" text="Plans"></NavItem>
-                <NavItem href="#contact" text="Contact Us"></NavItem>>
+                <NavItem href="#contact" text="Contact Us"></NavItem>
                 <span className="inline-block text-sm px-4 py-2 leading-none shadow text-xl bg-red-400 rounded text-white hover:bg-red-300 mt-4 mr-10 lg:mt-0">
                     Login
                 </span>

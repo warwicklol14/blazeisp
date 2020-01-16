@@ -2,9 +2,9 @@ import React from 'react'
 
 export function MissionItem(props:NavItemProps) {
     return (
-    <li className="flex items-center mt-4">
+    <li className="flex justify-between items-center mt-4">
         {props.text}
-        <img className="block ml-8 md:inline-block" src={props.imgSrc} alt="Connect People"></img>
+        <img className="ml-2 block md:inline-block" src={props.imgSrc} alt="Connect People"></img>
     </li>
     );
 }
